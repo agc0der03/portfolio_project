@@ -1,54 +1,53 @@
+/* Your existing styles */
+
 body {
     display: flex;
 }
 
 main {
-    
-    flex: 4 1 auto; 
+    flex: 4 1 auto;
     color: white;
 }
 
 aside {
-    flex:3 1 auto;
-
-    top:8%;
-   
+    flex: 3 1 auto;
+    top: 8%;
     position: fixed;
-    
     right: 1%;
-   
-    /* border:3px solid orange ; */
 }
-.orangetext{
+
+.orangetext {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: orange;
 }
-#myimg{
-    border-bottom:15px solid orange ;
-    border-left:15px solid orange;
-}
-#myimg_smallscreen{
-    border:5px solid orange ;
-    
+
+#myimg {
+    border-bottom: 15px solid orange;
+    border-left: 15px solid orange;
 }
 
-i{
+#myimg_smallscreen {
+    border: 5px solid orange;
+}
+
+i {
     color: white;
 }
 
 .circle-icon {
     background: #252525;
-    padding-top:1.25rem;
+    padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     padding-left: 0.6rem;
     padding-right: 0.6rem;
     border-radius: 60%;
 }
 
-#profile-nav i:hover{
+#profile-nav i:hover {
     background-color: orange;
 }
-#social_profile i:hover{
+
+#social_profile i:hover {
     transform: scale(1.5);
 }
 
@@ -60,21 +59,21 @@ i{
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
     }
-
     40% {
         transform: translateY(-4rem);
     }
-
     60% {
         transform: translateY(-2rem);
     }
 }
-.social{
+
+.social {
     width: 1.3rem;
     height: 1.3rem;
     color: white;
 }
-.social:hover{
+
+.social:hover {
     transform: scale(1.5);
 }
 
@@ -87,137 +86,116 @@ i{
     100% { transform: rotate(360deg); }
 }
 
-.knowmore{
+.knowmore {
     color: white;
     width: 14rem;
-    height:3.1rem;
+    height: 3.1rem;
     border: 2px solid orange;
     border-radius: 1.5rem;
-    
-    
 }
 
-.circle-iconnew{
+.circle-iconnew {
     background: orange;
     border-radius: 60%;
     padding: 1.5rem 0.7rem 1.5rem 0.7rem;
-
-    
 }
 
-.knowmore:hover{
+.knowmore:hover {
     transform: scale(1.2);
 }
 
-.greytext{
+.greytext {
     color: gray;
 }
 
-@media only screen and (min-width:1600px){
-    .skills-sec{
+@media only screen and (min-width: 1600px) {
+    .skills-sec {
         margin-left: 6rem;
-        
     }
 }
 
-
-@media only screen and (max-width:1000px){
-    .skills-sec{
+@media only screen and (max-width: 1000px) {
+    .skills-sec {
         margin-top: 4rem;
-        
     }
-    #aboutme{
+    #aboutme {
         margin-top: 2rem;
     }
 }
-/* 
-@media only screen and (max-width:1000px){
-    .aside_sec{
-        display: none;
-        
-    }
-} */
 
-.experience{
+.experience {
     margin-top: 1.5rem;
     padding: 0 4rem 0 6rem;
 }
 
-.outerflex{
-    display:flex;
+.outerflex {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
-.innerflex{
-    display:flex;
-    flex-direction: column;
-   
-   
-}
-.innercards{
-    margin:2rem 1rem 0 1rem;
+.innerflex {
     display: flex;
-
+    flex-direction: column;
 }
+
+.innercards {
+    margin: 2rem 1rem 0 1rem;
+    display: flex;
+}
+
 .circle-icon2 {
-    margin-top:0.3rem ;
+    margin-top: 0.3rem;
     background: orange;
-    padding:0.8rem 0.4rem 0.8rem 0.4rem; /* Adjusted padding to make the circle smaller */
+    padding: 0.8rem 0.4rem 0.8rem 0.4rem;
     border-radius: 50%;
 }
 
-.exptime{
-    width: 9.0rem;
+.exptime {
+    width: 9rem;
     margin-left: 0.7rem;
-    border: 0.3rem solid  #252525;
-    background-color:  #252525;
+    border: 0.3rem solid #252525;
+    background-color: #252525;
     border-radius: 1.5rem;
     font-size: 0.8rem;
     padding-left: 0.2rem;
 }
-.w-greytext{
-    color:#A6ACAF;
+
+.w-greytext {
+    color: #A6ACAF;
 }
 
-.expheading{
+.expheading {
     margin-top: 0.25rem;
     margin-left: 0.7rem;
 }
-.expdescr{
+
+.expdescr {
     margin-left: 0.7rem;
     width: 35rem;
-    color:#A6ACAF;
+    color: #A6ACAF;
     margin-bottom: 0.3rem;
 }
 
-@media only screen and (max-width:1000px) {
-    .outerflex{
-        display:flex;
+@media only screen and (max-width: 1000px) {
+    .outerflex {
+        display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-    
     }
 }
 
-@media only screen and (min-width:1000px) and (max-width:1600px) {
-    .outerflex{
-        display:flex;
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+    .outerflex {
+        display: flex;
         flex-direction: row;
     }
-    .experience{
+    .experience {
         margin-right: 5rem;
         width: 88%;
-        /* border: 1px solid red; */
     }
 }
-/* .insidedata{
-    border-left: 1px solid red;
-    margin-left:-1px ;
-} */
 
-.gridcontainer{
+.gridcontainer {
     margin-top: 2rem;
     width: 88%;
     display: grid;
@@ -225,18 +203,17 @@ i{
     padding: 1rem;
     margin-left: 6rem;
 }
+
 .course {
     box-sizing: border-box;
     margin-bottom: 1.5rem;
     display: inline-block;
-    /* padding: 0 2rem; */
     height: 3rem;
     width: 20rem;
     font-size: 1.1rem;
     line-height: 3rem;
     border-radius: 25px;
-    background-color:  #252525;
-    /* overflow-x: scroll; */
+    background-color: #252525;
     word-wrap: break-word;
 }
 
@@ -252,7 +229,7 @@ i{
     color: orange;
 }
 
-.courseim{
+.courseim {
     height: 3rem;
     width: 3rem;
     padding: 0.5rem;
@@ -262,30 +239,126 @@ i{
     margin-right: 1rem;
     overflow-clip-margin: content-box;
     overflow: clip;
-   
 }
 
-@media screen and (min-width:1600px){
-    
-    .gridcontainer{
+@media screen and (min-width: 1600px) {
+    .gridcontainer {
         padding-left: 10rem;
     }
 }
 
-@media  screen and (max-width:1000px) {
-    .gridcontainer{
-    /* margin-top: 2rem;
-    width: 88%;
-    display: grid; */
-    grid-template-columns: auto auto;
-    padding: 0.5rem;
-    /* margin-left: 6rem; */
+@media screen and (max-width: 1000px) {
+    .gridcontainer {
+        grid-template-columns: auto auto;
+        padding: 0.5rem;
     }
-    #prsnlinfo{
+    #prsnlinfo {
         margin-left: 3rem;
     }
-    #resumeheading{
-       display: hidden;
+    #resumeheading {
+        display: hidden;
+    }
+}
+
+.projects {
+    max-width: 75rem; /* 1200px / 16px */
+    margin-top:2rem ;
+    margin: 0 auto;
+    padding: 1.25rem; /* 20px / 16px */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1rem; /* 32px / 16px */
+    font-size: 2rem; /* 32px / 16px */
+    margin-bottom: 2rem;
+}
+
+.card-grid {
+    margin-top: 2.5rem;
+    display: grid;
+    margin-right: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
+    gap: 6.5rem; 
+}
+
+.card {
+    background-color: #252525;;
+    border-radius: 0.5rem; /* 8px / 16px */
+    box-shadow: 0 0.5rem 0.75rem orange; /* 4px, 8px / 16px */
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-0.625rem); /* 10px / 16px */
+}
+
+.card img {
+    width: 100%;
+    height: 12.5rem; /* 200px / 16px */
+    object-fit: fil;
+}
+
+.card-content {
+    padding: 1rem; /* 16px / 16px */
+}
+
+.card-content h2 {
+    color:wheat;
+    margin: 0;
+    font-size: 1.5rem; /* 24px / 16px */
+}
+
+.card-content p {
+    margin: 0.625rem 0 0; /* 10px / 16px */
+    color :white;
+    font-size: 1rem; /* 16px / 16px */
+}
+
+.card h2 a {
+    color: wheat;
+    /* text-decoration: none; */
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* 240px / 16px */
     }
 
-}   
+    .card img {
+        height: 10rem; /* 160px / 16px */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        height: 8rem; /* 128px / 16px */
+    }
+}
+
+@media screen and (min-width:1400px){
+    
+    .projects {
+        max-width: 85rem; /* 1200px / 16px */
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding: 1.25rem; /* 20px / 16px */
+    }
+
+    
+    .card-grid {
+        display: grid;
+        margin-right: 6rem;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); 
+        gap: 6rem; 
+    }
+
+}
