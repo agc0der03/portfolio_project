@@ -1,0 +1,15 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "My first project of 2024 using html,css,javascript and bootstrap Making it responsive too.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "adit",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
