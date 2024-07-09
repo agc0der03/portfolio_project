@@ -362,3 +362,34 @@ h2 {
     }
 
 }
+
+.achievements-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width:80%;
+    margin:auto;
+}
+
+
+.achievements-list li {
+    background-color: #252525;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem 2rem 3rem;
+    width: 80%;
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s;
+}
+
+.achievements-list li:hover {
+    transform: scale(1.05);
+}
+
+
+.achievements-list .circle-icon {
+    color: orange;
+    margin-right: 10px;
+}
