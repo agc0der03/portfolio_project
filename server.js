@@ -52,7 +52,7 @@ app.post('/submit-form', (req, res) => {
             return res.status(500).send('Error sending email');
         } else {
             console.log('Email sent: ' + info.response);
-            return res.status(200).send('Email sent successfully');
+            res.redirect('/#contact-section');
         }
     });
 });
