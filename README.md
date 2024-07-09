@@ -1,7 +1,7 @@
 <h1>Portfolio Project</h1>
 
 <h2>See My Website Live</h2>
-<p>Check out my <a href="https://portfolio-project-adit.onrender.com" target="_blank">website live</a>.</p>
+<p>Check out my <a href="https://portfolio-project-adit.onrender.com" target="_blank" rel="noopener noreferrer">website live</a>.</p>
 <p>For the best experience, view it on a PC, but you can see it on mobile phones as well, as it is responsive.</p>
 
 <h2>Overview</h2>
