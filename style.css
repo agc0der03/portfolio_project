@@ -206,6 +206,12 @@ i {
     margin-left: 6rem;
 }
 
+@media (max-width: 768px) { 
+    .gridcontainer{
+        margin-left: 3rem;
+    }
+}
+
 .course {
     box-sizing: border-box;
     margin-bottom: 1.5rem;
@@ -283,6 +289,12 @@ h2 {
     margin-right: 6rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
     gap: 6.5rem; 
+}
+
+@media (max-width: 768px) { 
+    .card-grid {
+        margin-right: 2rem;
+    }
 }
 
 .card {
