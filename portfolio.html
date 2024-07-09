@@ -170,7 +170,7 @@
             </div>
         </div>
         <!-- i will make experience and education section using native css -->
-        <h2 style=" width:88%; text-align: center; margin-top:3rem;" id="exp-edu-section" class="bouncing-text">EXPERIENCE & EDUCATION</h2>
+        <h2 style=" width:88%; text-align: center; margin-top:3rem;" id="exp-edu-section" class="bouncing-text">EXPERIENCE & <span id="educationheading">EDUCATION</span></h2>
         
         <div class="experience"  style="margin-bottom: 4rem;">
            
@@ -351,7 +351,7 @@
             </div>
         </section>
         <section class="projects">
-            <h2 style="width:88%; text-align: center; margin-top:2rem; margin-bottom: 2rem;" class="bouncing-text" id="project-section">PROJECTS</h2>
+            <h2 style="width:88%; text-align: center; margin-top:0.5rem; margin-bottom: 2rem;" class="bouncing-text" id="project-section">PROJECTS</h2>
             <div class="card-grid">
                 <div class="card">
                     <img src="images/portfolio_pic.jpg" alt="Project 1">
@@ -410,7 +410,7 @@
         </section>
 
         <section class="achivements">
-            <h2 style="width:88%; text-align: center; margin-top:2rem; margin-bottom: 2rem;" class="bouncing-text" id="achivement-section">
+            <h2 style="width:88%; text-align: center; margin-top:6rem; margin-bottom: 2rem;" class="bouncing-text" id="achivement-section">
             ACHIEVEMENTS</h2>
             <ul class="achievements-list">
                 <li><i class="fa-lg fa-solid fa-trophy circle-icon"></i> 480+ problems solved (DSA) on LeetCode and received 100-day (2024), 50-day (2023) badges. </li>
@@ -423,6 +423,54 @@
             </ul>
             
         </section>
+
+        <section class="contact" id="contact-section">
+            <h2 class="contact-title bouncing-text" >GET IN <span>TOUCH</span></h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>I am happy to connect!</h3>
+                    <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions and grow 
+                        together in new domains.</p>
+                    <div class="contact-details" style="margin-top: 7rem;">
+                        <div class="contact-detail" style="display: flex; align-items: center;">
+                            <i class="fa fa-map-marker-alt" style="margin-right: 0.5rem;"></i>
+                            <p style="margin: 0;">Arya Apaertments, Sector 15, Rohini, New Delhi-89</p>
+                        </div>
+                        <div class="contact-detail" style="display: flex; align-items: center;">
+                            <i class="fa fa-envelope" style="margin-right: 0.5rem;"></i>
+                            <a href="mailto:send2adit@gmail.com" style="color: inherit; text-decoration: underline; margin: 0;">send2adit@gmail.com</a>
+                        </div>
+                        <div class="contact-detail" style="display: flex; align-items: center;">
+                            <i class="fa fa-phone" style="margin-right: 0.5rem;"></i>
+                            <p style="margin: 0;">+91 9910507443</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="mailto:send2adit@gmail.com" target="_blank" style="margin-right: 1rem;">
+                            <i class="fas fa-lg fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/agc0der03" target="_blank" style="margin-right: 1rem;">
+                            <i class="fab fa-lg  fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- <form class="contact-form">
+                    <input type="text" placeholder="YOUR NAME" required>
+                    <input type="email" placeholder="YOUR EMAIL" required>
+                    <input type="text" placeholder="YOUR SUBJECT" required>
+                    <textarea placeholder="YOUR MESSAGE" required></textarea>
+                    <button type="submit">SEND MESSAGE <i class="fa fa-paper-plane"></i></button>
+                </form> -->
+                <form class="contact-form" action="/submit-form" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message <i class="fa fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section> 
         
         
     </main>
@@ -467,7 +515,7 @@
               </li>
   
               <li class="nav-item ms-5 mb-3">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#contact-section">
                       <i class="fa-lg fa-solid fa-envelope circle-icon"></i>
                   </a>
               </li>

@@ -127,7 +127,9 @@ i {
     margin-top: 1.5rem;
     padding: 0 4rem 0 6rem;
 }
-
+#educationheading{
+    color: orange;
+}
 .outerflex {
     display: flex;
     flex-direction: row;
@@ -265,6 +267,7 @@ i {
     margin-top:2rem ;
     margin: 0 auto;
     padding: 1.25rem; /* 20px / 16px */
+    width: 88%;
 }
 
 h2 {
@@ -363,6 +366,7 @@ h2 {
 
 }
 
+
 .achievements-section {
     background-color: #fff;
     border-radius: 8px;
@@ -392,4 +396,150 @@ h2 {
 .achievements-list .circle-icon {
     color: orange;
     margin-right: 10px;
+}
+
+
+.contact {
+    max-width: 90%;
+    margin-top: 5.5rem;
+   margin-left: 3.7rem;
+   margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 0.5rem;
+    width: 80%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.contact-title span {
+    color: #ff9500;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 280px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.contact-info p {
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+
+.contact-details {
+    margin-bottom: 1.5rem;
+}
+
+.contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+.contact-detail i {
+    color: #ff9500;
+    margin-right: 1rem;
+}
+
+.contact-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-socials i {
+    font-size: 1.5rem;
+    color: #ff9500;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.contact-socials i:hover {
+    color: #ffb74d;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 280px;
+}
+.contact-socials i {
+    transition: transform 0.2s ease;
+    cursor: pointer; 
+}
+
+.contact-socials i:active {
+    transform: scale(1.2); 
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form textarea {
+    height: 8rem;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #ff9500;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-socials a {
+    color: #fff;
+    font-size: 2rem;
+    transition: transform 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.contact-socials a:hover {
+    color: #ff9500; 
+    transform: scale(1.2); 
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-right: 0;
+    }
+
+    .contact-form {
+        margin-top: 2rem;
+    }
 }
