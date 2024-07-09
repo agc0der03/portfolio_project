@@ -1,5 +1,9 @@
 <h1>Portfolio Project</h1>
 
+<h2>See My Website Live</h2>
+<p>Check out my <a href="https://portfolio-project-adit.onrender.com" target="_blank">website live</a>.</p>
+<p>For the best experience, view it on a PC, but you can see it on mobile phones as well, as it is responsive.</p>
+
 <h2>Overview</h2>
 <p>
     This project is my portfolio website developed in 2024, showcasing my skills and projects using HTML, CSS, JavaScript, Bootstrap, and Node.js. The portfolio is designed to be responsive and visually appealing, highlighting my expertise and providing a glimpse into my work.
@@ -19,3 +23,4 @@
     <li><strong>Backend:</strong> Node.js, Express.js</li>
     <li><strong>Other Tools:</strong> Nodemailer for email functionality, dotenv for environment variable management</li>
 </ul>
+
