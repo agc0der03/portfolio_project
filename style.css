@@ -300,10 +300,10 @@ h2 {
 
 @media (max-width: 768px) { 
     .Sphere{
-        margin-left: 1rem;     
+        margin-left: 1.4rem;     
     }
     .tagcloud{
-        margin-left: 3.7rem;
+        margin-left: 4.7rem;
         
     }
 }
