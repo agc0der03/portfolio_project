@@ -299,8 +299,10 @@ h2 {
 }
 
 @media (max-width: 768px) { 
+
     .tagcloud{
-        margin-left: 2.1rem;
+        margin-left: 3.5rem;
+        
     }
 }
 
