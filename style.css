@@ -298,6 +298,13 @@ h2 {
     }
 }
 
+@media (max-width: 768px) { 
+    .tagcloud{
+        margin-left: 2.1rem;
+    }
+}
+
+
 .card {
     background-color: #252525;;
     border-radius: 0.5rem; /* 8px / 16px */
