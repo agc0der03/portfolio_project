@@ -299,9 +299,11 @@ h2 {
 }
 
 @media (max-width: 768px) { 
-
+    .Sphere{
+        margin-left: 1rem;     
+    }
     .tagcloud{
-        margin-left: 3.5rem;
+        margin-left: 3.7rem;
         
     }
 }
